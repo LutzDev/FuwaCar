@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		7126A3C0247D6221006DED27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126A3BF247D6221006DED27 /* AppDelegate.swift */; };
 		7126A3C2247D6221006DED27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126A3C1247D6221006DED27 /* SceneDelegate.swift */; };
-		7126A3C4247D6221006DED27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126A3C3247D6221006DED27 /* ViewController.swift */; };
 		7126A3C7247D6221006DED27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7126A3C5247D6221006DED27 /* Main.storyboard */; };
 		7126A3C9247D6222006DED27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7126A3C8247D6222006DED27 /* Assets.xcassets */; };
 		7126A3CC247D6222006DED27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7126A3CA247D6222006DED27 /* LaunchScreen.storyboard */; };
+		7126A3D6247D70ED006DED27 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126A3D5247D70ED006DED27 /* SignUpViewController.swift */; };
+		7126A3D8247D7104006DED27 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126A3D7247D7104006DED27 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7126A3BC247D6221006DED27 /* FuwaCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuwaCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7126A3BF247D6221006DED27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7126A3C1247D6221006DED27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7126A3C3247D6221006DED27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7126A3C6247D6221006DED27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7126A3C8247D6222006DED27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7126A3CB247D6222006DED27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7126A3CD247D6222006DED27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7126A3D5247D70ED006DED27 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7126A3D7247D7104006DED27 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				7126A3BF247D6221006DED27 /* AppDelegate.swift */,
 				7126A3C1247D6221006DED27 /* SceneDelegate.swift */,
-				7126A3C3247D6221006DED27 /* ViewController.swift */,
 				7126A3C5247D6221006DED27 /* Main.storyboard */,
 				7126A3C8247D6222006DED27 /* Assets.xcassets */,
 				7126A3CA247D6222006DED27 /* LaunchScreen.storyboard */,
 				7126A3CD247D6222006DED27 /* Info.plist */,
+				7126A3D5247D70ED006DED27 /* SignUpViewController.swift */,
+				7126A3D7247D7104006DED27 /* SignInViewController.swift */,
 			);
 			path = FuwaCar;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7126A3C4247D6221006DED27 /* ViewController.swift in Sources */,
+				7126A3D8247D7104006DED27 /* SignInViewController.swift in Sources */,
 				7126A3C0247D6221006DED27 /* AppDelegate.swift in Sources */,
+				7126A3D6247D70ED006DED27 /* SignUpViewController.swift in Sources */,
 				7126A3C2247D6221006DED27 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
