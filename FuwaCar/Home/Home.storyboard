@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="627-1w-WdD">
+    <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="HLI-Vz-4qo">
+            <objects>
+                <viewController id="kcO-Xf-oa2" customClass="HomeViewController" customModule="FuwaCar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nrs-S2-0sk">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="2MF-gb-UzV"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lsl-Ls-nrq">
+                        <barButtonItem key="leftBarButtonItem" title="Ausloggen" id="qI8-SS-zYT">
+                            <connections>
+                                <action selector="logOutButton:" destination="kcO-Xf-oa2" id="pNc-SN-oLV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CWZ-Qx-vMi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3046.7625899280579" y="-820.1005025125628"/>
+        </scene>
+        <!--Fahrten-->
+        <scene sceneID="t5A-y0-EbX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="627-1w-WdD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Fahrten" image="car" catalog="system" selectedImage="car.fill" id="6vH-eN-9tx">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="B5C-JZ-0rc">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kcO-Xf-oa2" kind="relationship" relationship="rootViewController" id="cWg-qE-elj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uh4-Cw-dhh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2292.8057553956837" y="-820.1005025125628"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="car" catalog="system" width="128" height="93"/>
+        <image name="car.fill" catalog="system" width="128" height="93"/>
+    </resources>
+</document>

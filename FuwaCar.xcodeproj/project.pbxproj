@@ -3,29 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F64774121A842FE1A2A07A3 /* Pods_FuwaCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371C54734C9578E061945C75 /* Pods_FuwaCar.framework */; };
+		7102B9A724C0DFB30091B7F0 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102B9A624C0DFB30091B7F0 /* HomeTableViewCell.swift */; };
+		7118398B247DA464000A6027 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7118398A247DA464000A6027 /* GoogleService-Info.plist */; };
 		7126A3C0247D6221006DED27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126A3BF247D6221006DED27 /* AppDelegate.swift */; };
 		7126A3C2247D6221006DED27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126A3C1247D6221006DED27 /* SceneDelegate.swift */; };
-		7126A3C7247D6221006DED27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7126A3C5247D6221006DED27 /* Main.storyboard */; };
+		7126A3C7247D6221006DED27 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7126A3C5247D6221006DED27 /* Start.storyboard */; };
 		7126A3C9247D6222006DED27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7126A3C8247D6222006DED27 /* Assets.xcassets */; };
 		7126A3CC247D6222006DED27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7126A3CA247D6222006DED27 /* LaunchScreen.storyboard */; };
 		7126A3D6247D70ED006DED27 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126A3D5247D70ED006DED27 /* SignUpViewController.swift */; };
-		7126A3D8247D7104006DED27 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126A3D7247D7104006DED27 /* SignInViewController.swift */; };
+		71A255D524BF5E40001CDCD2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A255D424BF5E40001CDCD2 /* HomeViewController.swift */; };
+		71A255D724BF5E59001CDCD2 /* OfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A255D624BF5E59001CDCD2 /* OfferViewController.swift */; };
+		71A255D924BF5E79001CDCD2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A255D824BF5E79001CDCD2 /* ProfileViewController.swift */; };
+		71A255E024BF6FF8001CDCD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A255DF24BF6FF8001CDCD2 /* Main.storyboard */; };
+		71A255E224BF7030001CDCD2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A255E124BF7030001CDCD2 /* Home.storyboard */; };
+		71A255E424BF7057001CDCD2 /* Offer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A255E324BF7057001CDCD2 /* Offer.storyboard */; };
+		71A255E624BF7084001CDCD2 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A255E524BF7084001CDCD2 /* Profile.storyboard */; };
+		71A255EA24BFA36D001CDCD2 /* AuthentificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A255E924BFA36D001CDCD2 /* AuthentificationService.swift */; };
+		71A255EC24BFA3B9001CDCD2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A255EB24BFA3B9001CDCD2 /* SignInViewController.swift */; };
+		71A255EE24BFB5A8001CDCD2 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A255ED24BFB5A8001CDCD2 /* ProgressHUD.swift */; };
+		71E9FB9524C0E5DB001C4DAC /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E9FB9424C0E5DB001C4DAC /* PostModel.swift */; };
+		71E9FB9724C104D9001C4DAC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E9FB9624C104D9001C4DAC /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		371C54734C9578E061945C75 /* Pods_FuwaCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuwaCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B79C58E45B77F5C9ECD923C /* Pods-FuwaCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuwaCar.debug.xcconfig"; path = "Target Support Files/Pods-FuwaCar/Pods-FuwaCar.debug.xcconfig"; sourceTree = "<group>"; };
+		7102B9A624C0DFB30091B7F0 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		7118398A247DA464000A6027 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7126A3BC247D6221006DED27 /* FuwaCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuwaCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7126A3BF247D6221006DED27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7126A3C1247D6221006DED27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7126A3C6247D6221006DED27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7126A3C6247D6221006DED27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Start.storyboard; sourceTree = "<group>"; };
 		7126A3C8247D6222006DED27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7126A3CB247D6222006DED27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7126A3CD247D6222006DED27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7126A3D5247D70ED006DED27 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		7126A3D7247D7104006DED27 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		71A255D424BF5E40001CDCD2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		71A255D624BF5E59001CDCD2 /* OfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewController.swift; sourceTree = "<group>"; };
+		71A255D824BF5E79001CDCD2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		71A255DF24BF6FF8001CDCD2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		71A255E124BF7030001CDCD2 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		71A255E324BF7057001CDCD2 /* Offer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Offer.storyboard; sourceTree = "<group>"; };
+		71A255E524BF7084001CDCD2 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		71A255E924BFA36D001CDCD2 /* AuthentificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationService.swift; sourceTree = "<group>"; };
+		71A255EB24BFA3B9001CDCD2 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../../Backup/SignInViewController.swift; sourceTree = "<group>"; };
+		71A255ED24BFB5A8001CDCD2 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		71E9FB9424C0E5DB001C4DAC /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		71E9FB9624C104D9001C4DAC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		C60A86408E9F6950DF306891 /* Pods-FuwaCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuwaCar.release.xcconfig"; path = "Target Support Files/Pods-FuwaCar/Pods-FuwaCar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F64774121A842FE1A2A07A3 /* Pods_FuwaCar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4352E4274D930CA982BB64BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				371C54734C9578E061945C75 /* Pods_FuwaCar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7102B9A524C0CBAE0091B7F0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				71A255E124BF7030001CDCD2 /* Home.storyboard */,
+				7102B9A624C0DFB30091B7F0 /* HomeTableViewCell.swift */,
+				71A255D424BF5E40001CDCD2 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		7126A3B3247D6221006DED27 = {
 			isa = PBXGroup;
 			children = (
 				7126A3BE247D6221006DED27 /* FuwaCar */,
 				7126A3BD247D6221006DED27 /* Products */,
+				D1DF0ABB6B345CA57E6EB0EF /* Pods */,
+				4352E4274D930CA982BB64BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +109,44 @@
 		7126A3BE247D6221006DED27 /* FuwaCar */ = {
 			isa = PBXGroup;
 			children = (
+				71E9FB9324C0E5B9001C4DAC /* Model */,
+				71A255DF24BF6FF8001CDCD2 /* Main.storyboard */,
+				71A255E524BF7084001CDCD2 /* Profile.storyboard */,
+				71A255E324BF7057001CDCD2 /* Offer.storyboard */,
+				7102B9A524C0CBAE0091B7F0 /* Home */,
 				7126A3BF247D6221006DED27 /* AppDelegate.swift */,
 				7126A3C1247D6221006DED27 /* SceneDelegate.swift */,
-				7126A3C5247D6221006DED27 /* Main.storyboard */,
+				7126A3C5247D6221006DED27 /* Start.storyboard */,
+				71A255D624BF5E59001CDCD2 /* OfferViewController.swift */,
+				71A255D824BF5E79001CDCD2 /* ProfileViewController.swift */,
 				7126A3C8247D6222006DED27 /* Assets.xcassets */,
 				7126A3CA247D6222006DED27 /* LaunchScreen.storyboard */,
 				7126A3CD247D6222006DED27 /* Info.plist */,
+				7118398A247DA464000A6027 /* GoogleService-Info.plist */,
 				7126A3D5247D70ED006DED27 /* SignUpViewController.swift */,
-				7126A3D7247D7104006DED27 /* SignInViewController.swift */,
+				71A255EB24BFA3B9001CDCD2 /* SignInViewController.swift */,
+				71A255E924BFA36D001CDCD2 /* AuthentificationService.swift */,
+				71A255ED24BFB5A8001CDCD2 /* ProgressHUD.swift */,
 			);
 			path = FuwaCar;
+			sourceTree = "<group>";
+		};
+		71E9FB9324C0E5B9001C4DAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71E9FB9424C0E5DB001C4DAC /* PostModel.swift */,
+				71E9FB9624C104D9001C4DAC /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1DF0ABB6B345CA57E6EB0EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B79C58E45B77F5C9ECD923C /* Pods-FuwaCar.debug.xcconfig */,
+				C60A86408E9F6950DF306891 /* Pods-FuwaCar.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7126A3D0247D6222006DED27 /* Build configuration list for PBXNativeTarget "FuwaCar" */;
 			buildPhases = (
+				7EA30C728F76667898F2FD79 /* [CP] Check Pods Manifest.lock */,
 				7126A3B8247D6221006DED27 /* Sources */,
 				7126A3B9247D6221006DED27 /* Frameworks */,
 				7126A3BA247D6221006DED27 /* Resources */,
+				7A2EA2734F548964B6C759ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,34 +210,89 @@
 			buildActionMask = 2147483647;
 			files = (
 				7126A3CC247D6222006DED27 /* LaunchScreen.storyboard in Resources */,
+				71A255E024BF6FF8001CDCD2 /* Main.storyboard in Resources */,
+				71A255E624BF7084001CDCD2 /* Profile.storyboard in Resources */,
+				7118398B247DA464000A6027 /* GoogleService-Info.plist in Resources */,
+				71A255E224BF7030001CDCD2 /* Home.storyboard in Resources */,
 				7126A3C9247D6222006DED27 /* Assets.xcassets in Resources */,
-				7126A3C7247D6221006DED27 /* Main.storyboard in Resources */,
+				71A255E424BF7057001CDCD2 /* Offer.storyboard in Resources */,
+				7126A3C7247D6221006DED27 /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A2EA2734F548964B6C759ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuwaCar/Pods-FuwaCar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuwaCar/Pods-FuwaCar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FuwaCar/Pods-FuwaCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA30C728F76667898F2FD79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuwaCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7126A3B8247D6221006DED27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7126A3D8247D7104006DED27 /* SignInViewController.swift in Sources */,
+				71A255EA24BFA36D001CDCD2 /* AuthentificationService.swift in Sources */,
+				71A255D524BF5E40001CDCD2 /* HomeViewController.swift in Sources */,
+				71A255EE24BFB5A8001CDCD2 /* ProgressHUD.swift in Sources */,
+				71A255D724BF5E59001CDCD2 /* OfferViewController.swift in Sources */,
 				7126A3C0247D6221006DED27 /* AppDelegate.swift in Sources */,
+				71A255EC24BFA3B9001CDCD2 /* SignInViewController.swift in Sources */,
+				7102B9A724C0DFB30091B7F0 /* HomeTableViewCell.swift in Sources */,
+				71A255D924BF5E79001CDCD2 /* ProfileViewController.swift in Sources */,
 				7126A3D6247D70ED006DED27 /* SignUpViewController.swift in Sources */,
 				7126A3C2247D6221006DED27 /* SceneDelegate.swift in Sources */,
+				71E9FB9724C104D9001C4DAC /* UserModel.swift in Sources */,
+				71E9FB9524C0E5DB001C4DAC /* PostModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7126A3C5247D6221006DED27 /* Main.storyboard */ = {
+		7126A3C5247D6221006DED27 /* Start.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7126A3C6247D6221006DED27 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Start.storyboard;
 			sourceTree = "<group>";
 		};
 		7126A3CA247D6222006DED27 /* LaunchScreen.storyboard */ = {
@@ -286,6 +422,7 @@
 		};
 		7126A3D1247D6222006DED27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B79C58E45B77F5C9ECD923C /* Pods-FuwaCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +441,7 @@
 		};
 		7126A3D2247D6222006DED27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60A86408E9F6950DF306891 /* Pods-FuwaCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

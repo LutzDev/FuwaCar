@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1086281625588-0u58fl3m3uohg1353l05pr3qom4kv0bn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1086281625588-0u58fl3m3uohg1353l05pr3qom4kv0bn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBdl9QtriO3sRI5HXafzPrZMKc2zmL0vkg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1086281625588</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>de.lutzweigold.FuwaCar</string>
+	<key>PROJECT_ID</key>
+	<string>fuwacar</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fuwacar.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1086281625588:ios:a1dd41005d3f89893a93a1</string>
+	<key>DATABASE_URL</key>
+	<string>https://fuwacar.firebaseio.com</string>
+</dict>
+</plist>
