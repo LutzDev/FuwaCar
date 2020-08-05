@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignInViewController: UIViewController {
 
@@ -20,6 +21,7 @@ class SignInViewController: UIViewController {
         setUpViews()
         addTargetToTextField()
     }
+    
     
     
     //MARK: - Methoden
@@ -64,8 +66,39 @@ class SignInViewController: UIViewController {
         
     }
     
+    
+    // MARK: - Dismiss Keyboard
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+    
     // MARK: - Actions
     @IBAction func SignInButtonAction(_ sender: Any) {
-        print("Login freigeschaltet")
+        view.endEditing(true)
+        Auth.auth().signIn(withEmail: SignInEmailTextField.text!, password: SignInPasswordTextField.text!) { (data, error) in
+            if let err = error{
+                print(err.localizedDescription)
+                return
+            }
+            print("User \(data?.user.email ?? "") ist eingeloggt")
+            self.performSegue(withIdentifier: "signInSegue", sender: nil)
+        }
+        
+        let test = Appli
+    }
+    
+    // MARK: - Auto login
+    override func viewDidAppear(_ animated: Bool) {
+        //Nachdem view angezeigt wird
+        super.viewDidAppear(animated)
+        
+        //Falls ein aktueller User vorhanden ist
+        if Auth.auth().currentUser != nil {
+            DispatchQueue.main.async { //Main CPU versucht View zu erstellen. Dieser Thread soll dann das Segue starten
+                Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { (timer) in
+                    self.performSegue(withIdentifier: "signInSegue", sender: nil) // Wenn Daten stimmen, wird eingeloggt
+                }
+            }
+        }
     }
 }

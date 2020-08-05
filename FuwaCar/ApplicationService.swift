@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import Firebase
+import FirebaseAuth
+import FirebaseStorage
+
+class ApplicationService {
+    
+    func signIn(){
+        
+    }
+}

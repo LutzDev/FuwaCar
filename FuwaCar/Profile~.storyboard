@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lLR-gJ-FZT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile View Controller-->
+        <scene sceneID="MjR-ZZ-MD5">
+            <objects>
+                <viewController id="VYj-7O-RIK" customClass="ProfileViewController" customModule="FuwaCar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QSD-nR-xH4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="d5A-A8-kgq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kIA-aM-WbE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ktU-qH-kQf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3046.7625899280579" y="472.8643216080402"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="q9y-tg-nba">
+            <objects>
+                <tabBarController modalPresentationStyle="fullScreen" id="lLR-gJ-FZT" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pul-AJ-xSd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8Jy-hN-ZmU" kind="relationship" relationship="viewControllers" id="R9Y-sW-sWw"/>
+                        <segue destination="Iv3-ev-BcE" kind="relationship" relationship="viewControllers" id="IjT-7v-SNN"/>
+                        <segue destination="5g1-TC-hWY" kind="relationship" relationship="viewControllers" id="mKW-Ek-syM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yFz-ld-cIO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1547" y="139"/>
+        </scene>
+        <!--Profil-->
+        <scene sceneID="dNi-4W-JCm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5g1-TC-hWY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profil" image="person" catalog="system" selectedImage="person.fill" id="73A-gK-PEW">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8jZ-Dm-IQ0">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VYj-7O-RIK" kind="relationship" relationship="rootViewController" id="c1h-Vq-gTD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dXM-ok-17T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2292.8057553956837" y="472.8643216080402"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="5L4-zU-FaN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="8Jy-hN-ZmU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="U3H-wn-8kH"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wM7-r7-8GV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2292.8057553956837" y="-820.1005025125628"/>
+        </scene>
+        <!--Offer-->
+        <scene sceneID="D3J-1N-lYG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Offer" id="Iv3-ev-BcE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="woD-jQ-i9M"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IRe-DK-oAe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2292.8057553956837" y="-163.31658291457288"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+    </resources>
+</document>

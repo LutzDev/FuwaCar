@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class UserModel {
+    
+    var username: String?
+    var email: String?
+    var profileImageUrl: String?
+    
+    init(dictionary: [String: Any]) {
+        username = dictionary["username"] as? String
+        email = dictionary["email"] as? String
+        profileImageUrl = dictionary["profilImageURL"] as? String
+    }
+}
